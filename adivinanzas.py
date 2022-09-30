@@ -7,10 +7,10 @@ while True:           # Begin of the infinite loop
     num = int(input())  # User input
 
     if num == win:   # Check user input
-        print("\n Enhorabuena, el número correcto es {}".format(num))
+        print("\nEnhorabuena, el número correcto es {}".format(num)) # If true
         break
 
-    else:
+    else:                               # If false
         print("[!] WRONG \n")
     
         print("Inténtalo de nuevo \n")
